@@ -1,0 +1,125 @@
+header{
+    width: 100%;
+    background-color: rgb(208, 244, 232);
+    text-align: center;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eeecec;  
+    margin: 0;                
+    padding: 0;            
+    width: 100%;           
+    height: 100%;   
+    font-family: Arial, sans-serif;  
+  }
+
+ h2 {
+  margin-left: 14%;  
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(18, 205, 90);
+    padding: 10px;
+  }
+
+  .product img {
+    width: 300px;           
+    height: auto;           
+    max-width: 400px;       
+    max-height: 300px;      
+    border-radius: 5px;     
+  }  
+
+  .product-list {
+    display: flex;               
+    gap: 30px;                   
+    padding: 10px;
+    justify-content: center;     
+    flex-wrap: wrap;             
+  }
+  
+  .product {
+    border: 1px solid #d0c8c8;   
+    border-radius: 8px;          
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 15px;
+    width: 200px; 
+    height: 450px;               
+    text-align: center;     
+    background-color: #ffffff;  
+  }
+  
+  .product img {
+    width: 100%;                 
+    height: auto;                
+    border-radius: 5px;        
+  }
+  
+  .product h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .product p {
+    font-size: 0.9em;
+    color: #363434;
+  }
+  
+  .product .price {
+    font-size: 1.1em;
+    color: #38d35c;
+    margin-top: 10px;
+  }
+
+@media (min-width: 768px) {
+  .product-list {
+      flex-direction: row;      
+      justify-content: center;   
+      gap: 100px;
+  }
+
+  .product {
+      width: 45%;                
+      max-width: 250px;
+  }
+
+  h2 {
+      margin-left: 40px;
+      font-size: 1.75em;
+  }
+
+  nav ul {
+      flex-direction: row;
+      gap: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .product {
+      width: 30%;              
+  }
+
+  h2 {
+      margin-left: 10%;
+  }
+}
+  
+  footer{
+    background-color: #044814;
+    text-align: center;
+    color: #d0c8c8;
+    padding: 1px;
+    margin-top: 150px;
+  }
