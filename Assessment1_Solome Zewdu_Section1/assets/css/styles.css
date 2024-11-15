@@ -1,6 +1,6 @@
 header{
     width: 100%;
-    background-color: rgb(208, 244, 232);
+    background-color: #d9eed9;
     text-align: center;
     padding: 1px;
     box-sizing: border-box;
@@ -16,7 +16,8 @@ body {
   }
 
  h2 {
-  margin-left: 14%;  
+  margin-left: 14%; 
+  color: #363434; 
 }
 nav ul {
     list-style-type: none;
@@ -30,7 +31,7 @@ nav ul {
   
   nav ul li a {
     text-decoration: none;
-    color: rgb(18, 205, 90);
+    color: #4CAF50;
     padding: 10px;
   }
 
@@ -96,8 +97,8 @@ nav ul {
   }
 
   h2 {
-      margin-left: 40px;
-      font-size: 1.75em;
+      margin-left: 5%;
+      font-size: 1.5em;
   }
 
   nav ul {
@@ -117,7 +118,7 @@ nav ul {
 }
   
   footer{
-    background-color: #044814;
+    background-color: #124314
     text-align: center;
     color: #d0c8c8;
     padding: 1px;
